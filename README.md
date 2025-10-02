@@ -1,6 +1,12 @@
 # HF_Dutch2Flemish
 Dutch2Flemish is an efficient, lightweight tool that automatically converts Dutch text into natural Flemish variants. It is specifically designed to address subtle yet important linguistic differences between the Netherlands and Flanders, ensuring content is both locally accurate and contextually authentic.
 
+## How Dutch2Flemish Works
+
+| 📝 Content Preparation | ➡️ | 🤖 Automated Conversion | ➡️ | 📤 Output & Integration | ➡️ | ⏱️ Efficiency & Accuracy |
+|-----------------------|----|------------------------|----|------------------------|----|-------------------------|
+| Source content is created in English and translated into Dutch. | | The Dutch text is processed through **Dutch2Flemish**, converting Dutch into Flemish while preserving formatting. | | Flemish text is output in the same structure and can be directly uploaded. | | Saves approximately **two full days of work per recipe week**, ensuring consistency and authenticity. |
+
 
 ## How Dutch2Flemish Works
 
