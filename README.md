@@ -1,14 +1,16 @@
 ![HF_Dutch2Flemish](./Images/title.png)
+## → Flemish Recipe Translation
+
+This tool automates the conversion of HelloFresh recipes from Dutch to Flemish while preserving formatting and content structure.
 
 **Dutch2Flemish** is a lightweight and efficient tool that automatically converts Dutch text into natural **Flemish** variants. It addresses subtle yet important linguistic differences between the Netherlands and Flanders, ensuring content is both **locally accurate** and **contextually authentic**.
 
 By preserving formatting, Dutch2Flemish saves hours of manual work and allows the **Flemish team** to focus on **proofreading**, **reducing errors** from the original Dutch or English source texts. This makes content **consistent, ready for upload, and perfectly tailored for Flemish-speaking users**.
 
 
-## Flemishmaker → Flemish Recipe Translation
+## Workflow
 
-This tool automates the conversion of HelloFresh recipes from Dutch to Flemish while preserving formatting and content structure.
-
+![Workflow Diagram](./Images/flowchart.png)
 ---
 
 ### 1. Source Files
