@@ -1,37 +1,12 @@
 # HF_Dutch2Flemish
 Dutch2Flemish is an efficient, lightweight tool that automatically converts Dutch text into natural Flemish variants. It is specifically designed to address subtle yet important linguistic differences between the Netherlands and Flanders, ensuring content is both locally accurate and contextually authentic.
 
-### Flemishmaker Horizontal Workflow
-
-[1️⃣ Source Files] → [2️⃣ Flemish Translation] → [3️⃣ Optional Editing] → [4️⃣ Transform for CPS] → [5️⃣ Final Output]
-
----
-
-**Details:**
-
-- **1️⃣ Source Files**  
-  Dutch recipe files: `nl-NL_4_step.xlsx`, `nl-NL_6_step.xlsx`
-
-- **2️⃣ Flemish Translation**  
-  - Apply word/phrase replacements (`Flemishreplacementsheet1.xlsx`)  
-  - Custom overrides & capitalization  
-  - Conditional ketjap replacement  
-
-- **3️⃣ Optional Editing**  
-  - Search & edit specific words (Jupyter / Colab widgets)
-
-- **4️⃣ Transform for CPS**  
-  - Reshape to vertical format (one step per row)  
-  - HTML formatting: `<ul>/<li>`, `<strong>/<em>`  
-
-- **5️⃣ Final Output**  
-  CPS-ready Excel file: `nl-BE_4+6_step_transformed.xlsx`
+Dutch2Flemish ensures content feels natural and authentic for Flemish-speaking users by automatically converting Dutch text while preserving formatting. It saves hours of manual work, allowing the flemish team to focus on pure proofreading and reducing errors.
 
 
+## Flemishmaker → Flemish Recipe Translation
 
-## Flemishmaker Workflow for Dutch → Flemish Recipe Translation
-
-This workflow automates the conversion of HelloFresh recipes from Dutch to Flemish while preserving formatting and content structure.
+This tool automates the conversion of HelloFresh recipes from Dutch to Flemish while preserving formatting and content structure.
 
 ---
 
@@ -83,3 +58,28 @@ This workflow automates the conversion of HelloFresh recipes from Dutch to Flemi
 | `Flemishmaker2_0.ipynb` | Main Python script for automated Dutch → Flemish conversion |
 | `Flemishreplacementsheet1.xlsx` | Contains word and phrase mappings for translation |
 | `nl-BE_4+6_step_transformed.xlsx` | Final output file for CPS upload |
+
+### Flemishmaker Workflow Diagram
+
+[1️⃣ Source Files]  
+      │  
+      │ Dutch recipe files (`nl-NL_4_step.xlsx` / `nl-NL_6_step.xlsx`)  
+      ▼  
+[2️⃣ Flemish Translation]  
+      │  
+      │ Apply replacements & custom rules (`Flemishreplacementsheet1.xlsx`)  
+      │ Handle capitalization & conditional ketjap replacements  
+      ▼  
+[3️⃣ Optional Editing]  
+      │  
+      │ Search & edit specific words interactively (Jupyter / Colab widgets)  
+      ▼  
+[4️⃣ Transform for CPS]  
+      │  
+      │ Convert to vertical format  
+      │ Apply HTML formatting: `<ul>/<li>`, `<strong>/<em>`  
+      ▼  
+[5️⃣ Final Output]  
+      │  
+      │ CPS-ready Excel file (`nl-BE_4+6_step_transformed.xlsx`)  
+
