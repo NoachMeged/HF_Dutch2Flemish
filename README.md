@@ -27,7 +27,7 @@ By preserving formatting, Dutch2Flemish saves hours of manual work and allows th
   - Applies **custom overrides** for common phrasing (e.g., "haal uit de pot" → "haal uit de pan").  
   - Handles conditional replacements, e.g., replacing "ketjap" with "ketjap of zoete sojasaus" if not listed in the ingredient list.
   - Capitalizes steps and ensures consistent formatting.
-  - Merges 4-step and 6-step NL recipes into a single Flemish output file.
+  - Merges 4-step and 6-step NL recipes into a **single Flemish output file**.
 
 ---
 
