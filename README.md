@@ -1,4 +1,4 @@
-# HF_Dutch2Flemish
+![HF_Dutch2Flemish](./images/Title.png)
 
 **Dutch2Flemish** is a lightweight and efficient tool that automatically converts Dutch text into natural **Flemish** variants. It addresses subtle yet important linguistic differences between the Netherlands and Flanders, ensuring content is both **locally accurate** and **contextually authentic**.
 
