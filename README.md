@@ -53,6 +53,8 @@ By preserving formatting, Dutch2Flemish saves hours of manual work and allows th
 - The final transformed file is saved as `nl-BE_4+6_step_transformed.xlsx` and is ready to upload directly into the HelloFresh CPS recipe system.  
 - The workflow **saves significant manual effort** while ensuring accuracy, proper formatting, and consistency.
 
+![upload directly into the HelloFresh CPS recipe system](Images/upload.png)
+
 ---
 
 ### Tools & Files
@@ -62,27 +64,4 @@ By preserving formatting, Dutch2Flemish saves hours of manual work and allows th
 | `Flemishreplacementsheet1.xlsx` | Contains word and phrase mappings for translation |
 | `nl-BE_4+6_step_transformed.xlsx` | Final output file for CPS upload |
 
-### Flemishmaker Workflow Diagram
-
-[1️⃣ Source Files]  
-      │  
-      │ Dutch recipe files (`nl-NL_4_step.xlsx` / `nl-NL_6_step.xlsx`)  
-      ▼  
-[2️⃣ Flemish Translation]  
-      │  
-      │ Apply replacements & custom rules (`Flemishreplacementsheet1.xlsx`)  
-      │ Handle capitalization & conditional ketjap replacements  
-      ▼  
-[3️⃣ Optional Editing]  
-      │  
-      │ Search & edit specific words interactively (Jupyter / Colab widgets)  
-      ▼  
-[4️⃣ Transform for CPS]  
-      │  
-      │ Convert to vertical format  
-      │ Apply HTML formatting: `<ul>/<li>`, `<strong>/<em>`  
-      ▼  
-[5️⃣ Final Output]  
-      │  
-      │ CPS-ready Excel file (`nl-BE_4+6_step_transformed.xlsx`)  
 
