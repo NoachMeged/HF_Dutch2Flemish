@@ -50,7 +50,7 @@ By preserving formatting, Dutch2Flemish saves hours of manual work and allows th
 ---
 
 ### 5. Output
-- The final transformed file is saved as `nl-BE_4+6_step_transformed.xlsx` and is ready to upload directly into the HelloFresh CPS recipe system.  
+- The final transformed file is saved as `nl-BE_4+6_step_transformed.xlsx` and is ready to **upload directly into the HelloFresh CPS recipe system**.  
 - The workflow **saves significant manual effort** while ensuring accuracy, proper formatting, and consistency.
 
 ![upload directly into the HelloFresh CPS recipe system](Images/upload.png)
