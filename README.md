@@ -20,14 +20,14 @@ By preserving formatting, Dutch2Flemish saves hours of manual work and allows th
 ---
 
 ### 2. Flemish Translation (`Flemishmaker2_0.ipynb`)
-- The user provides the path to the file to be translated.  
+- The user provides the path to the file to be translated .  
 - The script:
   - Reads the recipe files while keeping only relevant columns.
   - Performs **case-insensitive replacements** based on the replacement sheet.
   - Applies **custom overrides** for common phrasing (e.g., "haal uit de pot" → "haal uit de pan").  
   - Handles conditional replacements, e.g., replacing "ketjap" with "ketjap of zoete sojasaus" if not listed in the ingredient list.
   - Capitalizes steps and ensures consistent formatting.
-  - Merges 4-step and 6-step recipes into a single Flemish output file.
+  - Merges 4-step and 6-step NL recipes into a single Flemish output file.
 
 ---
 
